@@ -1,0 +1,75 @@
+/* Tested and working on Chrome ver. 122.0.6261.112 on windows 10 */
+/* Basic resets */
+body,
+table {
+  font-family: sans-serif;
+  background-color: #99dde4;
+}
+
+/* Table layout */
+#gradesTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table header styling */
+#gradesTable th {
+  text-align: center;
+  background-color: darkgrey;
+}
+
+/* Right-align numbers */
+#gradesTable td.right-aligned {
+  text-align: right;
+}
+
+/* Center-align '-' */
+#gradesTable td.center-aligned {
+  text-align: center;
+}
+
+/* Style for low grades */
+.lowGrade {
+  color: white;
+  background-color: red;
+}
+
+#unsubmittedCount {
+  padding: 10px;
+  margin-top: 10px; /* Adjust as needed */
+  /* Additional styling here */
+}
+
+/* Zebra striping for rows */
+#gradesTable tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+#gradesTable tr:nth-child(even) {
+  background-color: #ffffff;
+}
+.hidden {
+  display: none;
+}
+/* Table layout */
+#ConversionTable {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+/* Table header styling */
+#ConversionTable th {
+  text-align: center;
+  background-color: darkgrey;
+}
+
+/* Center-align numbers */
+#ConversionTable td {
+  text-align: center; 
+}
+
+#ConversionTable tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+#ConversionTable tr:nth-child(even) {
+  background-color: #ffffff;
+}
